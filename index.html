@@ -1,93 +1,103 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>D'ReNime</title>
+        <link rel="icon" type="image/png" href="assets/images/icon.png">
+        <title>D'Reviewnimesion</title>
         <link rel="stylesheet" href="assets/styles/styles.css">
     </head>
 
     <body>
         <header>
             <div class="jumbotron">
-                <h1>D'Reviewnimesion</h1>
-                <p>Sebuah review anime sederhana untuk khalayak ramai</p>
+                <h1 id="#beranda">D'Reviewnimesion</h1>
+                <p>Sebuah review sederhana mengenai Anime untuk khalayak ramai</p>
             </div>
                 <nav>
                     <ul>
-                        <li>Beranda</li>
-                        <li>Daftar</li>
-                        <li>Rekomendasi</li>
-                        <li>Author</li>
+                        <li><a href="#beranda">Beranda</a></li>
+                        <li><a href="#daftar">Daftar Anime</a></li>
+                        <li><a href="#sumber">Sumber</a></li>
+                        <li><a href="#tentang">Tentang Saya</a></li>
                     </ul>
                 </nav>
         </header>
 
 
         <main>
-            <div id="content">
-                <article>
-                    <p>Berikut merupakan anime bertema slice of life yang related dengan kehidupan orang-orang</p>
-                </article>
+                 <div id="content" class="card">
+                     <div>
+                            <h2>Anime</h2>
+                            <p>Apa itu Anime?</p>
 
-                <div class="container">
-                    <article>
-                        <div class="left-content">
-                            <h2>Yesterday wo Utatte</h2>
-                            <img src="assets/images/ywouposter.jpg" class="featured-image" alt="Yesterday wo Utatte">
-                        </div>
-
-                        <div class="right-content">
-                            <p>Anime yang satu ini rilis pada musim semi tahun 2020, mengkisahkan seorang tokoh utama bernama Uozumi Rikuo,
-                            seorang lulusan universitas yang lebih memilih menjadi part-timer daripada melamar kerja.</p>
-                        </div>
-                    </article>
-                </div>
-
-
-                <div class="container">
-                    
-                    <article>
-                            <div class="left-content"></div>
-                                <h2>Re:Life</h2>
-                                <img src="assets/images/relifeposter.png" class="featured-image" alt="Re:Life">
-                            </div>
-
-                            <div class="right-content">
-                                <p>
-                                Salah satu anime yang menggabungkan konsep sci-fi dan realitas kehidupan masa kini. Bercerita tentang
-                                seorang NEET bernama Kaizaki Arata yang terpaksa menjadi NEET karena tak kunjung mendapatkan pekerjaan.
-                                Kehidupannya pun berubah ketika seorang pegawai Re:Life Lab bernama Yoake Ryo menawari Kaizaki untuk bergabung
-                                dalam project Re:Life
+                            <article>
+                                <p>Berdasarkan keterangan pada id.wikipedia.com Anime adalah animasi dari Jepang yang digambar dengan tangan
+                                    maupun digambar dengan teknologi komputer. Kata anime merupakan singkatan dari <i>"animation"</i>
+                                    dalam bahasa Inggris yang merujuk pada kata animasi.
                                 </p>
-                            </div>
-                    </article>
-                </div>
+                                <p>Pada kesempatan kali ini, saya akan me-review atau mengulas beberapa anime yang menurut saya cukup berkesan
+                                    bagi saya pribadi. Apa saja anime nya ?
+                                </p>
+                            </article>
+                        </div>
 
-                <div class="container">
-                    <article>
+                    <div class="container" class="card">
+                        <h2 id="daftar">Daftar Anime</h2>
+                        <div class="left-content">
+                            <img src="assets/images/ywouposter.jpg" class="featured-image" width="200px" height="200px" alt="Yesterday wo Utatte">
+                        </div>
+                            <h2>Yesterday wo Utatte</h2>
+                            <p>Merupakan salah satu anime yang rilis pada musim spring 2020. Mengkisahkan tentang Uozumi Rikuo, Seorang lulusan universitas yang lebih memilih menjadi Part-timer daripada melamar kerja Kehidupan sang tokoh utama mengalami perubahan perlahan-lahan ketika dirinya bertemu dengan salah seorang koleganya Ketika kuliah bernama Shinako Morinome yang kebetulan bekerja di sekitar lingkungannya bekerja ditambah dengan pertemuannya dengan seorang gadis misterius bernama Nonaka Haru membuat kehidupan Rikuo yang awalnya cukup datar-datar saja menjadi lebih berwarna.
+                                Anime ini sangat menarik dan cukup related bagi anda yang berusia 20 tahun-an dan dalam fase mencari jati diri, karena elemen tersebut hadir cukup banyak dalam anime ini. Dimulai dengan kebimbangan Rikuo dalam memutuskan masa depannya seperti apa, hingga konflik percintaan Rikuo dengan Haru serta Shinako.
+                                Anime ini merupakan adaptasi manga karya Kei Toume Sensei yang sudah tamat pada tahun 2015 silam. Jika anda sempat membaca manga-nya mungkin akan ada sensasi yang berbeda karena ada beberapa bagian yang diubah dan disesuaikan antara bagian pada manga dan anime.
+                                </p>
+                        <div class="clear"></div>
+                    </div>
+
+
+                    <div class="container">
                             <div class="left-content">
-                                <h2>Hyouka</h2>
-                                <img src="assets/images/hyoukaposter.jpg" class="featured-image" alt="Hyouka">
+                                <img src="assets/images/relifeposter.png" class="featured-image" width="200px" height="200px" alt="Re:Life">
                             </div>
+                                <h2>Re:Life</h2>
+                                <p>Salah satu anime yang menggabungkan antara konsep sci-fi dan kehidupan realitas masa kini. Bercerita seorang pria bernama Kaizaki Arata yang terpaksa menjadi Pengangguran karena suatu insiden. Suatu waktu Kaizaki Arata dihubungi oleh Orang tuanya bahwasanya orang tuanya berhenti mengirim uang untuknya agar membuatnya hidup mandiri, seketika itu pun Kaizaki langsung bingung. Untung saja datang sosok Yoake Ryo, Salah satu pegawai lab Re:Life menawarkan pekerjaan untuknya yaitu menjadi subjek Re:Life. Dan kemudian kehidupan baru Kaizaki pun dimulai.
+                                    Anime ini memiliki unsur yang unik karena mencoba menggabungkan sisi sci-fi dengan kehidupan masa kini dengan menciptakan konsep Re:Life. Re:Life disini adalah suatu percobaan untuk subjek agar mengalami Kembali masa mudanya supaya bisa belajar bergaul lagi dengan kehidupan masyarakat. Singkatnya dengan Re:Life seorang bisa Kembali ke masa mudanya untuk belajar Kembali mengenal masyarakat.
+                                    Walau ada unsur seinen, anime ini juga masih bisa dinikmati oleh kalangan remaja karena disini kita melihat Kaizaki yang fisiknya berubah menjadi remaja usia 17 tahun harus membaur dalam kehidupan anak-anak 17 tahun. Otomatis membuat Kaizaki harus terlibat di dalamnya.
+                                    Anime yang diadaptasi dari Web Comic karya Yayoi Sou ini memiliki rating yang cukup baik di MyAnimeList yaitu 8.06.
+                                    </p>
+                            <div class="clear"></div>
+                    </div>
 
-                            <div class="right-content">
-                                <p>Bercerita tentang seorang pemuda bernama Oreki Houtarou yang sangat membenci aktivitas
-                                yang menguras energi. Suatu hari kehidupannya berubah karena harus mengikuti ekstra kurikuler
-                                yang disarankan oleh kakaknya.</p>
+                    <div class="container">
+                            <div class="left-content">
+                                <img src="assets/images/hyoukaposter.jpg" class="featured-image" width="200px" alt="Hyouka">
                             </div>
-                    </article>
+                                <h2>Hyouka</h2>
+                                <p>Anime yang rilis pada musim semi 2012 ini mengkisahkan tentang Oreki Houtarou, seorang pemuda yang memiliki prinsip menghemat energi yang mana dia tidak akan menghabiskan energinya untuk hal-hal yang tak berguna. Suatu hari, Oreki mendapatkan surat dari kakaknya yang berada di luar negeri untuk mengikuti ekskulnya sewaktu ia SMA dikarenakan jika ekskul itu tidak ada anggotanya, maka terpaksa ekskul itu dibubarkan. Dan dengan berat hati Oreki mengikuti ekskul itu. Ketika Oreki mengikuti ekskul itu, ia bertemu dengan seorang perempuan bernama Chitanda Eru, seorang gadis yang memiliki sifat yang sangat bertolak belakang dengan sifat Oreki yang tidak suka melakukan yang tidak perlu. Dengan sifat Chitanda yang suka penasaran dengan hal-hal disekitarnya membuat kehidupan Oreki perlahan-lahan berubah.
+                                    Hyouka memiliki cerita yang tidak membosankan karena di tiap episode kita disuguhkan dengan misteri yang harus dipecahkan oleh Oreki Houtarou selaku tokoh utama, belum lagi kita bisa melihat bagaiman perkembangan karakter tokoh utama seiring bertemu dengan tokoh-tokoh baru yang hadir dalam kehidupannya.
+                                </p>
+
+                            <div class="clear"></div>
+                    </div>
+
+                    
+                        <h2 id="#sumber">Sumber :<h2>
+                            <ol>
+                                <li>https://myanimelist.net/anime/30015/ReLIFE</li>
+                                <li>https://id.wikipedia.org/wiki/Hy%C5%8Dka#:~:text=Sebuah%20anime%20yang%20mengadaptasi%20empat,April%20hingga%2016%20September%202012.</li>
+                                <li>https://myanimelist.net/anime/39710/Yesterday_wo_Utatte</li>
+                            </ol>
+            
+
                 </div>
 
-            </div>
 
-
-
-            <aside>
-                <article class="profile-card">
+             <aside>
+                <article class="profile card">
                     <header>
-                        <h3>Dimas Fahrul Sayogo</h3>
-
-
-
+                        <h3 id="tentang">Tentang Saya</h3>
+                        <figure>
+                            <img src="assets/images/dfs.jpg" width="200px" alt="Dimas FS">
+                        </figure>
                     </header>
                     <section>
                         <h3>Biodata</h3>
@@ -101,30 +111,19 @@
                                     <th>alamat</th>
                                     <td>jalan granting baru 1 no 24 a surabaya</td>
                                 </tr>
-                    
 
-
-
+                                <tr>
+                                    <th>no.telepon</th>
+                                    <td>+62 857 0769 6950</td>
+                                </tr>
                             </table>
-
-
-
-
-
                     </section>
-
-
-
-
                 </article>
-
-
-            </aside>
-
+             </aside>
         </main>
 
         <footer>
-
+            <p>Dimas Fahrul Sayogo, 2020</p>
         </footer>
 
     </body>
